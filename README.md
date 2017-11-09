@@ -1,1 +1,1 @@
-This is the Photo App from The Completer Ruby on Rails Developer Course @ Udemy
+This is the Photo App from The Complete Ruby on Rails Developer Course @ Udemy
