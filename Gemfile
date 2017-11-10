@@ -14,6 +14,9 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 # Use Devise Bootstrap Views for devise views 
 gem 'devise-bootstrap-views'
+gem 'font-awesome-rails'
+
+gem 'sendgrid-ruby'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
