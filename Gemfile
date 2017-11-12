@@ -25,7 +25,7 @@ gem 'carrierwave'
 # Resizing images
 gem 'mini_magick'
 # Working with images in production
-gem 'fog-aws'
+gem 'fog'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
