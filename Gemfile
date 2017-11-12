@@ -20,6 +20,13 @@ gem 'sendgrid-ruby'
 
 gem 'stripe'
 
+# Uploading images
+gem 'carrierwave'
+# Resizing images
+gem 'mini_magick'
+# Working with images in production
+gem 'fog-aws'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
