@@ -12,7 +12,7 @@ $(document).ready(function() {
     if (Stripe){
       Stripe.card.createToken($form, stripeResponseHandler);
     } else {
-      show_error("Failed to load credi card processing functionality. Please reload this page.")
+      show_error("Failed to load credit card processing functionality. Please reload this page.")
     }
     return false;
   };
@@ -44,7 +44,7 @@ $(document).ready(function() {
   };
 
   show_error = function (message) {
-    if($('#flash-messages').size() < 1){
+    if($("#flash-messages").size() < 1){
       $('div.container.main div:first').prepend("<div id='flash-messages'></div>")
     }
 
